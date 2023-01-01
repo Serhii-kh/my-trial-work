@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-.hero-button {
+.hero__button {
   font-size: 30px;
   padding: 10px;
   margin-top: 50px;
@@ -32,7 +32,7 @@ a {
   border: 3px solid black;
   border-radius: 12px;
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   color: blue;
   border-color: blue;
 }
@@ -57,7 +57,7 @@ a {
 
 .header__nav-link:hover,
 .header__nav-link:focus {
-  color: blueviolet;
+  color: blue;
   background-color: rgb(237, 237, 70);
 }
 
@@ -82,7 +82,10 @@ a {
 
 .section.hero {
   margin-top: 50px;
-  outline: 1px solid black;
+}
+
+.hero__title {
+  color: blue;
 }
 
 .section {
@@ -95,4 +98,5 @@ a {
 
 .section-title {
   margin-bottom: 20px;
+  color: blue;
 }/*# sourceMappingURL=main.css.map */

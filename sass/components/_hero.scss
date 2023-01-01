@@ -1,5 +1,8 @@
 .section.hero {
   margin-top: 50px;
 
-  outline: 1px solid black;
+}
+
+.hero__title {
+	color: $maincolor;
 }

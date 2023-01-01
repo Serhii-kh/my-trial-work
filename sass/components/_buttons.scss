@@ -1,4 +1,4 @@
-.hero-button {
+.hero__button {
   font-size: 30px;
   padding: 10px;
   margin-top: 50px;
@@ -13,7 +13,7 @@
 
   &:hover,
   &:focus {
-    color: blue;
-    border-color: blue;
+    color: $maincolor;
+    border-color: $maincolor;
   }
 }

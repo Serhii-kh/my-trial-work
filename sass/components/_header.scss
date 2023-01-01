@@ -12,7 +12,7 @@
 
 .header__nav-link:hover,
 .header__nav-link:focus {
-  color: blueviolet;
+  color: $maincolor;
   background-color: rgb(237, 237, 70);
 }
 
@@ -30,7 +30,7 @@
 .header.pink {
   background-color: pink;
 
-  outline: 3px solid blue;
+  outline: 3px solid $maincolor;
 }
 
 .header__nav-item {
