@@ -1,10 +1,10 @@
-const Name = "Serhii";
+const Name = "Serhii Naboka";
 let age = 39;
 let boo = true;
 
 const header = document.querySelector("#header");
 const headerLinks = document.querySelectorAll(".header__nav-link");
-const heroBtn = document.querySelector("#hero-btn");
+const heroBtn = document.querySelector("#hero__btn");
 
 console.log(headerLinks);
 

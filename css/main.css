@@ -19,22 +19,29 @@ p {
 
 a {
   text-decoration: none;
+  color: blue;
+}
+
+p {
+  font-size: 28px;
 }
 
 .hero__button {
-  font-size: 30px;
+  font-size: 34px;
   padding: 10px;
   margin-top: 50px;
   text-align: center;
   min-width: 250px;
   min-height: 100px;
-  background-color: aquamarine;
-  border: 3px solid black;
-  border-radius: 12px;
+  color: pink;
+  background-color: blue;
+  border: 8px solid pink;
+  border-radius: 10px;
 }
 .hero__button:hover, .hero__button:focus {
   color: blue;
   border-color: blue;
+  background-color: pink;
 }
 
 .header__nav-list {
@@ -52,13 +59,13 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
-  outline: 3px solid greenyellow;
+  outline: 4px solid blue;
 }
 
 .header__nav-link:hover,
 .header__nav-link:focus {
   color: blue;
-  background-color: rgb(237, 237, 70);
+  background-color: pink;
 }
 
 .header {
@@ -68,7 +75,6 @@ a {
   right: 0;
   z-index: 10;
   font-size: 40px;
-  background-color: bisque;
 }
 
 .header.pink {
@@ -89,8 +95,7 @@ a {
 }
 
 .section {
-  color: darkgreen;
-  background-color: azure;
+  color: black;
   padding: 15px 30px;
   text-align: center;
   height: calc(100vh - 70px);

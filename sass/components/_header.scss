@@ -7,13 +7,13 @@
   justify-content: center;
   gap: 30px;
 
-  outline: 3px solid greenyellow;
+  outline: 4px solid $mainColor;
 }
 
 .header__nav-link:hover,
 .header__nav-link:focus {
-  color: $maincolor;
-  background-color: rgb(237, 237, 70);
+  color: $mainColor;
+  background-color: $secondColor;
 }
 
 .header {
@@ -24,13 +24,12 @@
   z-index: 10;
   font-size: 40px;
 
-  background-color: bisque;
 }
 
 .header.pink {
-  background-color: pink;
+  background-color: $secondColor;
 
-  outline: 3px solid $maincolor;
+  outline: 3px solid $mainColor;
 }
 
 .header__nav-item {
