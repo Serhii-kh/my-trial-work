@@ -1,0 +1,19 @@
+.hero-button {
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+
+  min-width: 250px;
+  min-height: 100px;
+
+  background-color: aquamarine;
+  border: 3px solid black;
+  border-radius: 12px;
+
+  &:hover,
+  &:focus {
+    color: blue;
+    border-color: blue;
+  }
+}
