@@ -8,12 +8,18 @@
   gap: 30px;
 
   outline: 4px solid $mainColor;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 
 .header__nav-link:hover,
 .header__nav-link:focus {
-  color: $mainColor;
-  background-color: $secondColor;
+ 
+  background-color: yellow;
 }
 
 .header {
@@ -23,7 +29,6 @@
   right: 0;
   z-index: 10;
   font-size: 40px;
-
 }
 
 .header.pink {
