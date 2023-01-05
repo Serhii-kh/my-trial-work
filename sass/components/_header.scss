@@ -7,7 +7,6 @@
   justify-content: center;
   gap: 30px;
 
-  outline: 4px solid $mainColor;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
@@ -29,12 +28,15 @@
   right: 0;
   z-index: 10;
   font-size: 40px;
+  background-color: #fff;
+
+  outline: 3px solid $mainColor;
 }
 
 .header.pink {
   background-color: $secondColor;
 
-  outline: 3px solid $mainColor;
+  outline: none;
 }
 
 .header__nav-item {

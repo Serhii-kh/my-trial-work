@@ -6,11 +6,11 @@ const header = document.querySelector('#header')
 const headerLinks = document.querySelectorAll('.header__nav-link')
 const heroBtn = document.querySelector('#hero__btn')
 
-console.log(headerLinks)
+// console.log(headerLinks)
 
 function sayHello() {
   let message = 'Hello ' + Name
-  console.log(message)
+  // console.log(message)
 }
 
 sayHello()
@@ -22,7 +22,7 @@ function Math(a, b) {
 
 let sum = Math(22, 33)
 
-console.log(sum)
+// console.log(sum)
 
 window.addEventListener('scroll', checkScroll)
 
@@ -51,6 +51,6 @@ let clientCounter = 18
 const maxClients = 25
 
 while (clientCounter <= maxClients) {
-  console.log(clientCounter)
+  // console.log(clientCounter)
   clientCounter += 1
 }
