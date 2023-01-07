@@ -37,7 +37,6 @@ function checkScroll() {
   }
 }
 
-
 heroBtn.addEventListener('click', function () {
   console.log('clicked')
 })
@@ -55,3 +54,33 @@ while (clientCounter <= maxClients) {
   // console.log(clientCounter)
   clientCounter += 1
 }
+
+// let balance = 10000
+// const payment = 2000
+// let balanceNew = balance - payment
+// let balanceMsg = 'you have ' + balanceNew + ' credits'
+// const alertMsg = 'Cheking your balance'
+// alert(alertMsg)
+
+// if (balance > payment) {
+//   console.log(balanceMsg)
+// } else {
+//   console.log('you have not costs')
+// }
+
+const totalSpent = 2000
+let payment = 500
+let discount
+
+if (totalSpent >= 100 && totalSpent <= 1000) {
+  discount = 0.02
+} else if (totalSpent > 1000 && totalSpent <= 5000) {
+  discount = 0.05
+} else if (totalSpent > 5000) {
+  discount = 0.1
+} else {
+  discount = 0
+}
+
+let paymentNew = payment - payment * discount
+console.log(paymentNew)
