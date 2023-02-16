@@ -2,9 +2,9 @@
 // let age = 39
 // let boo = true
 
-// const header = document.querySelector('#header')
+const header = document.querySelector('#header')
 // const headerLinks = document.querySelectorAll('.header__nav-link')
-// const heroBtn = document.querySelector('#hero__btn')
+const heroBtn = document.querySelector('#hero__btn')
 
 // // console.log(headerLinks)
 
@@ -24,18 +24,18 @@
 
 // // console.log(sum)
 
-// window.addEventListener('scroll', checkScroll)
+window.addEventListener('scroll', checkScroll)
 
-// document.addEventListener('DOMContentLoaded', checkScroll)
+document.addEventListener('DOMContentLoaded', checkScroll)
 
-// function checkScroll() {
-//   let scrollPos = window.scrollY
-//   if (scrollPos > 0) {
-//     header.classList.add('pink')
-//   } else {
-//     header.classList.remove('pink')
-//   }
-// }
+function checkScroll() {
+  let scrollPos = window.scrollY
+  if (scrollPos > 0) {
+    header.classList.add('pink')
+  } else {
+    header.classList.remove('pink')
+  }
+}
 
 // heroBtn.addEventListener('click', function () {
 //   console.log('clicked')
@@ -148,35 +148,39 @@
 // console.log(includes([1, 2, 3, 4, 5], 5));
 
 
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+
+// highTemperatures.icon="https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg";
+
+// const { yesterday: highYesterday,
+// 	today: highToday,
+// 	tomorrow: highTomorrow,
+// 	highIcon: icon } = highTemperatures;
+
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
 
 
-const products = [
-  { name: "Radar", price: 1300, quantity: 4 },
-  { name: "Scanner", price: 2700, quantity: 3 },
-  { name: "Droid", price: 400, quantity: 7 },
-  { name: "Grip", price: 1200, quantity: 9 },
-];
+// // Колбэк-функция
+// function greet(name) {
+//   console.log(`Добро пожаловать ${name}.`);
+// }
 
-function getProductPrice(productName) {
+// // Функция высшего порядка
+// function registerGuest(name, callback) {
+//   console.log(`Регистрируем гостя ${name}.`);
+//   callback(name);
+// }
 
-	for (const { name, price, quantity } of products) {
-	
-		// console.log(product);
-  
-	if (productName === name) {
-		return price;
-	} else {
-		continue
-			
-	};
-
-}
-return null;
-}
+// registerGuest("Манго", greet);
 
 
 
-console.log(getProductPrice("Droid"));
+
+
 
 
 
