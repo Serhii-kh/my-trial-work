@@ -24,18 +24,18 @@ const heroBtn = document.querySelector('#hero__btn')
 
 // // console.log(sum)
 
-window.addEventListener('scroll', checkScroll)
+// window.addEventListener('scroll', checkScroll)
 
-document.addEventListener('DOMContentLoaded', checkScroll)
+// document.addEventListener('DOMContentLoaded', checkScroll)
 
-function checkScroll() {
-  let scrollPos = window.scrollY
-  if (scrollPos > 0) {
-    header.classList.add('pink')
-  } else {
-    header.classList.remove('pink')
-  }
-}
+// function checkScroll() {
+//   let scrollPos = window.scrollY
+//   if (scrollPos > 0) {
+//     header.classList.add('pink')
+//   } else {
+//     header.classList.remove('pink')
+//   }
+// }
 
 // heroBtn.addEventListener('click', function () {
 //   console.log('clicked')
@@ -90,18 +90,18 @@ function checkScroll() {
 // }
 
 // function calculateTotal(number) {
-//   let sum = 0
-//   for (let i = 1; i <= number; i += 1) {
+// 	let sum = 0
+	
+//   for (let i = 10; i <= number; i += 10) {
 //     sum += i
 //   }
 //   return sum
 // }
 
-// console.log(calculateTotal(253));
+// console.log(calculateTotal(40));
 
 // function findLongestWord(string) {
-//   let array = string.split(' ')
-//   console.log(array)
+//   const array = string.split(' ')
 //   let longestWord = array[0]
 
 //   for (let i = 1; i < array.length; i += 1) {
@@ -112,7 +112,7 @@ function checkScroll() {
 //   return longestWord
 // }
 
-// console.log(findLongestWord('My name is Alina and I love Serhiyko'))
+// console.log(findLongestWord('My name is Serhii'))
 
 
 // function getCommonElements(array1, array2) {
@@ -122,12 +122,10 @@ function checkScroll() {
 //      if (array1.includes(array2[i])) {
 //        array.push(array2[i])
 //      }
-//   }
- 
+// 	}
+	
 // return array
-
 // };
-
 
 // console.log(getCommonElements([24, 12, 27, 3], [24, 8, 3, 36, 2]));
 
@@ -136,16 +134,12 @@ function checkScroll() {
 // function includes(array, value) {
 
 // for (const elem of array ) {
-
-//   if (elem === value) {
-// 		return true;
-// 	}
- 
+//   if (elem === value) return true;
 // 	}
 // 	return false
 // };
 
-// console.log(includes([1, 2, 3, 4, 5], 5));
+// console.log(includes([1, 2, 3, 4, 6], 5));
 
 
 // const highTemperatures = {
