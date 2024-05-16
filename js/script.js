@@ -253,13 +253,13 @@ const allUsers = [
 // 		allFriends.indexOf(friend) === index);
 // };
 
-const getFriends = users => users.flatMap(user => user.friends)
-		.filter((friend, index, array) => array.indexOf(friend) === index)
-;
+// const getFriends = users => users.flatMap(user => user.friends)
+// 		.filter((friend, index, array) => array.indexOf(friend) === index)
+// ;
 
 
 
-console.log(getFriends(allUsers));
+// console.log(getFriends(allUsers));
 
 
 
