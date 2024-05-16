@@ -261,22 +261,6 @@ const getFriends = users => users.flatMap(user => user.friends)
 
 console.log(getFriends(allUsers));
 
-// dsfdffknfks
-// console.log(5 > 7);
-console.log(3 === 2);
-console.log(6 === 6);
-
-
-console.log(9 === 9);
-console.log('f' > '55');
-
-
-const dogs = [];
-const cats = [];
-console.log("rrr" === 0);
-
-const doMath = (arr) => arr.filter(el => el > 23);
-const friends = {};
 
 
 
