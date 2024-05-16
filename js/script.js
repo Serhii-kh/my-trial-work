@@ -264,6 +264,7 @@ console.log(getFriends(allUsers));
 // dsfdffknfks
 // console.log(5 > 7);
 console.log(3 === 2);
+console.log(6 === 6);
 
 
 
