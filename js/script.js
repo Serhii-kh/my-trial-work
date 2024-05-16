@@ -267,6 +267,9 @@ console.log(3 === 2);
 console.log(6 === 6);
 
 
+console.log(9 === 9);
+console.log('f' > '55');
+
 
 
 
