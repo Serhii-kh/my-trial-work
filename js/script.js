@@ -273,7 +273,10 @@ console.log('f' > '55');
 
 const dogs = [];
 const cats = [];
+console.log("rrr" === 0);
 
+const doMath = (arr) => arr.filter(el => el > 23);
+const friends = {};
 
 
 
