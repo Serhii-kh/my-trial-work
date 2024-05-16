@@ -258,7 +258,10 @@ const getFriends = users => users.flatMap(user => user.friends)
 ;
 
 
+
 console.log(getFriends(allUsers));
+
+// dsfdffknfks
 
 
 
