@@ -262,7 +262,8 @@ const getFriends = users => users.flatMap(user => user.friends)
 console.log(getFriends(allUsers));
 
 // dsfdffknfks
-console.log(5 > 7);
+// console.log(5 > 7);
+console.log(3 === 2);
 
 
 
