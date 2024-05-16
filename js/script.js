@@ -268,6 +268,7 @@ console.log(3 === 2);
 console.log("rrr" === 0);
 
 const doMath = (arr) => arr.filter(el => el > 23);
+const friends = {};
 
 
 
