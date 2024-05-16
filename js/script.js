@@ -272,6 +272,7 @@ console.log('f' > '55');
 
 
 const dogs = [];
+const cats = [];
 
 
 
