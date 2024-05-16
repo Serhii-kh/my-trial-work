@@ -265,7 +265,7 @@ console.log(getFriends(allUsers));
 // console.log(5 > 7);
 console.log(3 === 2);
 
-
+console.log("rrr" === 0);
 
 
 
