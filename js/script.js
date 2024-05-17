@@ -262,13 +262,6 @@ const allUsers = [
 // console.log(getFriends(allUsers));
 
 
-console.log('cat');
-console.log('fox');
-'coomit-3';
-'com-4';
-'com-5';
-'com-6';
-
 
 
 
