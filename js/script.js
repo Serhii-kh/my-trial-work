@@ -262,7 +262,7 @@ const allUsers = [
 // console.log(getFriends(allUsers));
 
 
-
+console.log('cat');
 
 
 
